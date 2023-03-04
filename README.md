@@ -3,5 +3,5 @@
 后面再考虑mysql
 
 idmp.storage.type=redis
-idmp.api.enable: true
-idmp.api.url: （默认/tokenApi/token）
+idmp.api.enable=true
+idmp.api.url=（默认/tokenApi/token）
