@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.example.idempotence.autoconfigure.TokenStorageAutoConfiguration,\
+org.example.idempotence.autoconfigure.DefaultTokenApiAutoConfiguration,\
+org.example.idempotence.autoconfigure.IdempotenceAutoConfiguration,\
+org.example.idempotence.autoconfigure.IdemAspectAutoConfiguration
+

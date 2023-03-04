@@ -21,6 +21,7 @@ public class IdempotenceAspect {
 
     @Before("pointCut()")
     public void before() throws RuntimeException {
+        System.out.println("before");
         ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         String idempotenceToken = requestAttributes.getRequest().getHeader("idempotenceToken");
 

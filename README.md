@@ -5,3 +5,7 @@
 先完成redis实现
 
 后面再考虑mysql
+
+idmp.storage.type=redis
+idmp.api.enable: true
+idmp.api.url: （默认/tokenApi/token）

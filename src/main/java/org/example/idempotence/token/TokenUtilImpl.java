@@ -1,9 +1,13 @@
 package org.example.idempotence.token;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class TokenUtilImpl implements TokenUtil {
 
+    @Autowired
     protected TokenGenerator tokenGenerator;
 
+    @Autowired
     protected TokenStorage tokenStorage;
 
     public TokenUtilImpl(TokenGenerator tokenGenerator, TokenStorage tokenStorage) {
