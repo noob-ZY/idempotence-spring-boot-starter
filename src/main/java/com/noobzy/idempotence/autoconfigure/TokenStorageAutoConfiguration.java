@@ -1,13 +1,11 @@
-package org.example.idempotence.autoconfigure;
+package com.noobzy.idempotence.autoconfigure;
 
-import org.example.idempotence.token.RedisTokenStorage;
-import org.example.idempotence.token.TokenStorage;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
+import com.noobzy.idempotence.token.TokenStorage;
+import com.noobzy.idempotence.token.RedisTokenStorage;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
 
 public class TokenStorageAutoConfiguration {
 

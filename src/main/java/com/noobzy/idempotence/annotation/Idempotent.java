@@ -1,4 +1,4 @@
-package org.example.idempotence.annotation;
+package com.noobzy.idempotence.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

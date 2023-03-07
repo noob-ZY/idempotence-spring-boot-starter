@@ -1,4 +1,4 @@
-package org.example.idempotence.token;
+package com.noobzy.idempotence.token;
 
 import java.util.UUID;
 

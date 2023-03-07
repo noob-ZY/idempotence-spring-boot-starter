@@ -1,9 +1,8 @@
-package org.example.idempotence.autoconfigure;
+package com.noobzy.idempotence.autoconfigure;
 
-import org.example.idempotence.api.DefaultTokenApi;
+import com.noobzy.idempotence.api.DefaultTokenApi;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 public class DefaultTokenApiAutoConfiguration {
 

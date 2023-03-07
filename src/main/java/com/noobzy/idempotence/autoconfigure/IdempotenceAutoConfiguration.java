@@ -1,10 +1,8 @@
-package org.example.idempotence.autoconfigure;
+package com.noobzy.idempotence.autoconfigure;
 
-import org.example.idempotence.token.*;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
+import com.noobzy.idempotence.token.*;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 public class IdempotenceAutoConfiguration {
 
